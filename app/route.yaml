@@ -6,7 +6,7 @@ metadata:
   name: spring-petclinic
 spec:
   port:
-    targetPort: 8080-tcp
+    targetPort: 30001
   to:
     kind: Service
     name: spring-petclinic
