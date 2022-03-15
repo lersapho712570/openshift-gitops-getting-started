@@ -6,7 +6,6 @@ metadata:
   name: spring-petclinic
 spec:
   ports:
-  ports:
     - port: 55023
       targetPort: 30001
   selector:
